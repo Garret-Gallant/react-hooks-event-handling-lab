@@ -1,8 +1,14 @@
 // Code Keypad Component Here
 
+const passPrinter = () => {
+    console.log("entering password...")
+}
+
 function Keypad (){
     return (
-        <div></div>
+        <div>
+            <input onChange={passPrinter} type="password" />
+        </div>
     )
 }
 
